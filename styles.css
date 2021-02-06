@@ -1,0 +1,50 @@
+body {
+    margin: 0px;
+}
+#wrapper {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#navbar  {
+    justify-content: center;
+    display: flex;
+}
+#navbar h5 {
+    width: 40%;
+}
+#fondo {
+    background-color: lightgray;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+#postcard {
+    background-color: whitesmoke;
+    width: 40%;
+    margin: 30px;
+    margin-bottom: 0px;
+}
+#posth {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    height: 20px;
+}
+#posth h6 {
+    margin-top: 0px;
+}
+#num {
+    color: lightgray;
+}
+#postcard img {
+    width: 100%;
+}
+p {
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: xx-small;
+    font-weight: lighter;
+    color: darkslategray;
+}
